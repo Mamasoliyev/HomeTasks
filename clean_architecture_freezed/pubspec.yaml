@@ -1,0 +1,29 @@
+name: clean_architecture_freezed
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  dio: ^5.8.0+1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  freezed_annotation: ^3.1.0
+  http: ^1.4.0
+  intl: ^0.20.2
+  pretty_dio_logger: ^1.4.0
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  freezed: ^3.2.0
+  build_runner: ^2.6.0
+  json_serializable: ^6.10.0
+
+flutter:
+  uses-material-design: true
