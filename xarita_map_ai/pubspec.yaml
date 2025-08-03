@@ -1,0 +1,28 @@
+name: xarita_map_ai
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.12.3
+  location: ^8.0.1
+  shared_preferences: ^2.5.3
+  flutter_polyline_points: ^2.0.0
+  geocoding: ^2.1.0
+  geolocator: ^14.0.2
+  provider: ^6.1.5
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
