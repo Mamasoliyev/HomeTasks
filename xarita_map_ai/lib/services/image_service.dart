@@ -35,9 +35,6 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ImageService {
-  final String _apiKey =
-      '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'; // Sizning OpenAI API kalitingiz
-
   Future<String> generateImage(String prompt) async {
     final url = Uri.parse('https://api.openai.com/v1/images/generations');
 
