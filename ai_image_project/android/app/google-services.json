@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "577714180040",
+    "project_id": "ai-image-generator-28ed3",
+    "storage_bucket": "ai-image-generator-28ed3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577714180040:android:1dcbc720f6e729f52abafd",
+        "android_client_info": {
+          "package_name": "com.example.ai_image_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbpTgoOEKAoFqRwnKfj_8k9LYimE8O7d8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

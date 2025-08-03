@@ -1,0 +1,32 @@
+name: ai_image_project
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.15.1
+  firebase_auth: ^5.6.2
+  cloud_firestore: ^5.6.11
+  dio: ^5.8.0+1
+  path_provider: ^2.1.5
+  provider: ^6.1.5
+  fluttertoast: ^8.2.12
+  path: ^1.9.1
+  saver_gallery: ^4.0.1
+  permission_handler: ^12.0.1
+  device_in: ^1.0.1
+  device_info_plus: ^11.5.0
+  firebase_storage: ^12.4.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
