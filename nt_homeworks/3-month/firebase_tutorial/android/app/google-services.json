@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "966499721598",
+    "project_id": "book-read-7922e",
+    "storage_bucket": "book-read-7922e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966499721598:android:1f9bb0cb67bc22c893d32f",
+        "android_client_info": {
+          "package_name": "com.example.firebase_tutorial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw99Kzs09SJm-qCZ9ic3108ILCjxf3mw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
