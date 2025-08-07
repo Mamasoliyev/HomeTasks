@@ -26,7 +26,7 @@ app.use("/uploads", express.static("uploads"));
 // 📤 REST orqali rasm yuklash (form-data bilan)
 app.post("/upload", upload.single("image"), (req, res) => {
   if (!req.file) return res.status(400).send("No file uploaded.");
-  const imageUrl = `http://localhost:4000/uploads/${req.file.filename}`;
+  const imageUrl = `http://192.168.1.38:4000/uploads/${req.file.filename}`;
   res.json({ imageUrl });
 });
 
