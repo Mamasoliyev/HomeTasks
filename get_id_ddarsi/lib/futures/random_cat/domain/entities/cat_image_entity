@@ -1,0 +1,5 @@
+class CatImage {
+  final String url;
+
+  CatImage({required this.url});
+}
