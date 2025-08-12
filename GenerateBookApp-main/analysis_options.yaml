@@ -1,0 +1,6 @@
+include: package:flutter_lints/flutter.yaml
+analyzer:
+  errors:
+    collection_methods_unrelated_type: ignore
+    empty_constructor_bodies: ignore
+    unnecessary_import: ignore

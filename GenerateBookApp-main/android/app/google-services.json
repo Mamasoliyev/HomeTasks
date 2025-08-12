@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "449723417788",
+    "project_id": "bookgenerationapp",
+    "storage_bucket": "bookgenerationapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449723417788:android:a03b6147442491215cbcb9",
+        "android_client_info": {
+          "package_name": "com.example.ai_book_summary_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8B3Vxy0U0RZZhIIBgcHDaNDwEe36DEWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
