@@ -3,7 +3,7 @@ import 'package:dio/dio.dart';
 import 'package:path/path.dart' as p;
 
 class UploadApi {
-  static final String baseUrl = "https://f30d9e0882b2.ngrok-free.app";
+  static final String baseUrl = "https://4d92a49bacba.ngrok-free.app";
   static final Dio _dio = Dio(BaseOptions(baseUrl: baseUrl));
 
   static Future<Response> uploadSingle(File file) async {

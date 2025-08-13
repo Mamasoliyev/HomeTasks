@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'dart:io';
 import 'dart:developer';
@@ -184,24 +185,34 @@ class _UploadScreenState extends State<UploadScreen> {
               borderRadius: const BorderRadius.vertical(
                 top: Radius.circular(16),
               ),
-              child: Image.network(
-                url,
+              child: CachedNetworkImage(
+                imageUrl: url,
                 width: double.infinity,
                 fit: BoxFit.cover,
-                errorBuilder: (_, __, ___) => const Center(
+                placeholder: (context, url) =>
+                    const Center(child: CircularProgressIndicator.adaptive()),
+                errorWidget: (context, url, error) => const Center(
                   child: Icon(Icons.broken_image, size: 48, color: Colors.red),
                 ),
-                loadingBuilder: (context, child, loadingProgress) {
-                  if (loadingProgress == null) return child;
-                  return const Center(child: CircularProgressIndicator());
-                },
               ),
+              // Image.network(
+              //   url,
+              //   width: double.infinity,
+              //   fit: BoxFit.cover,
+              //   errorBuilder: (_, __, ___) => const Center(
+              //     child: Icon(Icons.broken_image, size: 48, color: Colors.red),
+              //   ),
+              //   loadingBuilder: (context, child, loadingProgress) {
+              //     if (loadingProgress == null) return child;
+              //     return const Center(child: CircularProgressIndicator());
+              //   },
+              // ),
             ),
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
             child: Row(
-              children: [
+              children: [ 
                 Expanded(
                   child: Text(
                     filename,
